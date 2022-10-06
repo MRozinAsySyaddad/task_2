@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Input Form</title>
+	<link rel="stylesheet" type="text/css" href="120140006_css.css">
+
+</head>
+<body>
+
+	<form action="120140006_support.html" method="get">
+	<center><table>
+		<thead>
+			<th colspan="3">INPUT RINCIAN PRODUK</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Nama</td>
+				<td></td>
+				<td><input type="text" name="nama_produk" required="true"></td>
+			</tr>
+			<tr>
+				<td>Jenis</td>
+				<td></td>
+				<td><select name="jenis_produk" required="true">
+					<option value="Elektronik">Elektronik</option>
+					<option value="Makanan & Minuman">Makanan & Minunam</option>
+					<option value="Perawatan & Kecantikan">Perawatan & Kecantikan</option>
+					<option value="Perlengkapan Rumah">Perlengkapan Rumah</option>
+					<option value="Pakaian">Pakaian</option>
+					<option value="Sepatu">Sepatu</option>
+					<option value="Tas">Tas</option>
+					<option value="Perlengkapan Bayi">Perlengkapan Bayi</option>
+					<option value="Kesehatan">Kesehatan</option>
+					<option value="Buku & Alat Tulis">Buku & Alat Tulis</option>
+					<option value="Olahraga">Olahraga</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Keterangan</td>
+				<td></td>
+				<td><textarea placeholder="- Silahkan Di Isi -" name="keterangan_produk" maxlength="100"></textarea></td>
+			</tr>
+			<tr>
+				<td>Harga</td>
+				<td>Rp.</td>
+				<td><input type="number" name="harga_produk" required="true" placeholder="Masukkan dalam Rupiah"></td>
+			</tr>
+			<tr>
+				<td>Gambar</td>
+				<td></td>
+				<td><input type="file" name="gambar_produk" required="true"></td>
+			</tr>
+			<tr>
+				<td colspan="3" class="tombol"><center><button>Kirim</button></center></td>
+			</tr>
+		</tbody>
+	</table></center>
+	</form>
+
+</body>
+</html>
